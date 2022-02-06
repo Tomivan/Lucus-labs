@@ -1,0 +1,30 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    text-align: left;
+}
+.login{
+    margin-top: 10%;
+}
+input{
+    width: 30vw;
+    height: 5vh;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    margin-bottom: 2%;
+}
+input::placeholder{
+    padding-left: 1em;
+}
+.login-button{
+    background: navy;
+    color: #ffffff;
+    height: 5vh;
+    width: 25vw;
+    border: none;
+    border-radius: 50px;
+}
